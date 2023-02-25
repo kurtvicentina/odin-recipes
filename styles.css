@@ -1,0 +1,62 @@
+
+body{
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,228,29,1) 0%, rgba(252,176,69,1) 100%); 
+    font-family: 'Pacifico', cursive;
+    color: #DA291C;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.class:hover{
+    animation-name: hover;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes hover{
+    0%{
+        background-color: chocolate;
+    }
+    50%{
+        background-color: gold;
+    }
+    100%{
+        background-color: goldenrod;
+    }
+}
+
+.class{
+    border-radius: 20px;
+    background-color: 	#cc2900 ;
+    width: 300px;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 25px;
+    position: relative;
+
+}
+
+
+.center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 75%;
+        opacity: 0.8;
+        border-radius: 15px;
+      }
+
