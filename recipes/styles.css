@@ -49,4 +49,6 @@ h1{
     max-height: fit-content;
     border-radius: 20px;
     align-self: auto;
+    padding: 5px;
+    border: 1.5px solid grey;
 }
